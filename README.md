@@ -1,10 +1,28 @@
-# animalTests
+# AnimalTest API
 
-python -m pip -r requirements.txt
+## Описание
 
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
+AnimalTest API — это RESTful API, разработанный с использованием Django Rest Framework для управления данными о тестах животных. API предоставляет возможность фильтрации и получения статистики по тестам.
+
+## Установка
+
+Для установки проекта выполните следующие шаги:
+
+1. Клонируйте репозиторий:
+
+   git clone https://github.com/H8doubt/animalTests
+   
+2. Установите необходимые зависимости:
+
+   pip install -r requirements.txt
+   
+3. Выполните миграции базы данных:
+
+   python manage.py migrate
+   
+4. Запустите сервер разработки:
+
+   python manage.py runserver
 
 ▎Использование API
 
